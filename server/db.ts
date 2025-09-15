@@ -6,15 +6,15 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'In which game can you get a victory royale?',
-        answer: 'Fortnite',
+        question: 'Which book series has quidditch?',
+        answer: 'Harry Potter',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What is the name of a cubic puzzle named after its inventor?',
+        imgSrc: "",
+        answer: 'Rubik\'s Cube',
     },
     {
         points: 300,
@@ -24,8 +24,8 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Which Valve video game features the character gladOS?',
+        answer: 'Portal',
     }
 ]);
 const presentQuestions: Question[] =
@@ -39,29 +39,28 @@ const presentQuestions: Question[] =
         {
             points: 100,
             question:
-                'What musician is called 6 god?',
+                'What musician released the album If You\'re Reading This It\'s Too Late?',
             answer: 'Drake',
         },
         {
             points: 300,
-            question: 'Who was the first person to deadlift 500kg?',
-            answer: 'Eddie Hall',
+            question: '?',
+            answer: '',
         },
         {
             points: 400,
             question:
-                'In which sport can you score an albatross?',
-            answer: 'Golf',
+                'Who composed the piano piece Arabesque No. 1 in E major, Op. 18?',
+            answer: 'Claude Debussy',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            'Which East Asian country includes 14,125 islands?',
+        imgSrc: "",
+        answer: 'Japan',
     }
 ]);
 
