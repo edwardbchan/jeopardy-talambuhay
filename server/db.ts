@@ -18,14 +18,13 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 300,
-        question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+        question: 'What is the name of the smaller sail on the front of a boat?',
+        answer: 'Jib',
     },
     {
         points: 400,
-        question: 'Which Valve video game features the character gladOS?',
-        answer: 'Portal',
+        question: 'What sandwich is known for being a pregame snack of the Golden State Warriors?',
+        answer: 'Peanut Butter and Jelly',
     }
 ]);
 const presentQuestions: Question[] =
@@ -33,7 +32,7 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What sport was called "The Creators Game" by the Native Americans?',
+                'What sport was called "The Creators Game" by Native Americans?',
             answer: 'Lacrosse',
         },
         {
@@ -44,8 +43,8 @@ const presentQuestions: Question[] =
         },
         {
             points: 300,
-            question: '?',
-            answer: '',
+            question: 'Which NBA player is the Slim Reaper?',
+            answer: 'Kevin Durant',
         },
         {
             points: 400,
@@ -58,10 +57,34 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'Which East Asian country includes 14,125 islands?',
+            'Which country is known for its cherry blossom trees?',
         imgSrc: "",
         answer: 'Japan',
     }
+    {
+            points: 100,
+            question:
+                'What country is known for its cherry blossom trees?',
+            answer: 'Japan',
+        }
+          {
+            points: 400,
+            question:
+                'What New York university has a lion as its mascot?',
+            answer: 'Columbia',
+        }
+        {
+            points: 400,
+            question:
+                '',
+            answer: '',
+        }
+         {
+            points: 400,
+            question:
+                '',
+            answer: '',
+        }
 ]);
 
 
