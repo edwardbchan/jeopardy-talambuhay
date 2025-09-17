@@ -18,8 +18,8 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 300,
-        question: 'What is the name of the smaller sail on the front of a boat?',
-        answer: 'Jib',
+        question: 'What is the front of a boat called?',
+        answer: 'Bow',
     },
     {
         points: 400,
@@ -76,14 +76,14 @@ const futureQuestions: Question[] = sortQuestions([
         {
             points: 400,
             question:
-                '',
-            answer: '',
+                'What is someone who studies the brain? ',
+            answer: 'Neurologist',
         }
          {
             points: 400,
             question:
-                '',
-            answer: '',
+                'What language is "quid pro quo" from?',
+            answer: 'Latin',
         }
 ]);
 
