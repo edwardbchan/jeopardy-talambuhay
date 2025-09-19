@@ -1,12 +1,12 @@
-<!-- This is an HTML file that displays the image IYRTITL.jpg -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
+DOCTYPE html>
+tml lang="en">
+head>
     <meta charset="UTF-8">
-    <title>IYRTITL Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IYRTITL</title>
 </head>
 <body>
-    <img src="IYRTITL.jpg" alt="IYRTITL">
+    <h1></h1>
+    <img src=static\src\static\IYRTITL.png>
 </body>
 </html>
