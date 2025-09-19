@@ -24,21 +24,23 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 400,
         question: 'What sandwich is known for being a pregame snack of the Golden State Warriors?',
+        imgSrc: "https://cdn.barstoolsports.com/wp-content/uploads/2016/02/03/pbjsteph.gif",
         answer: 'Peanut Butter and Jelly',
     }
 ]);
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
+            points: 100,
             question:
                 'What sport was called "The Creators Game" by Native Americans?',
             answer: 'Lacrosse',
         },
         {
-            points: 100,
+            points: 200,
             question:
                 'What musician released the album If You\'re Reading This It\'s Too Late?',
+            imgSrc: "/static/IYRTITL.png",
             answer: 'Drake',
         },
         {
@@ -58,27 +60,21 @@ const futureQuestions: Question[] = sortQuestions([
         points: 100,
         question:
             'Which country is known for its cherry blossom trees?',
-        imgSrc: "",
+        imgSrc: "https://www.redsavannah.com/-/media/countries/japan/japan-cherry-blossom-park-istock.jpg?h=800&w=750&udi=1&cropregion=51,0,1046,1062&hash=D20B9E3A2EED835AA28E87A4B6916D08",
         answer: 'Japan',
-    }
-    {
-            points: 100,
-            question:
-                'What country is known for its cherry blossom trees?',
-            answer: 'Japan',
-        }
-          {
-            points: 400,
+    },
+ {
+            points: 200,
             question:
                 'What New York university has a lion as its mascot?',
             answer: 'Columbia',
-        }
+        },
         {
-            points: 400,
+            points: 300,
             question:
                 'What is someone who studies the brain? ',
             answer: 'Neurologist',
-        }
+        },
          {
             points: 400,
             question:

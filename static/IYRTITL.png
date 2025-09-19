@@ -1,0 +1,12 @@
+<!-- This is an HTML file that displays the image IYRTITL.jpg -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IYRTITL Image</title>
+</head>
+<body>
+    <img src="IYRTITL.jpg" alt="IYRTITL">
+</body>
+</html>
